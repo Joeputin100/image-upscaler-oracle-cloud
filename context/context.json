@@ -1,0 +1,37 @@
+{
+  "project_description": "An image upscaler that runs on Oracle Cloud. A local Python script executes the upscaling script on an Oracle Cloud instance, copies the files back to the local machine, and cleans up the files on the Oracle Cloud instance.",
+  "project_task_state": "initialization",
+  "task_todo_list": [
+    "Create a GitHub repository.",
+    "Create a local Python script to execute the script on the Oracle Cloud instance.",
+    "Copy the upscaled files back to the local machine.",
+    "Clean up the files on the Oracle Cloud instance.",
+    "Add instructions for finding gcloud and Oracle Cloud secrets."
+  ],
+  "project_files": [
+    {
+      "name": "main.py",
+      "description": "The main Python script that executes the upscaling process."
+    },
+    {
+      "name": "README.md",
+      "description": "A brief introduction to the project."
+    },
+    {
+      "name": ".gitignore",
+      "description": "A file that specifies which files and directories to ignore in a Git repository."
+    },
+    {
+      "name": "context/context.json",
+      "description": "A file that stores the project's context, including the project description, task state, to-do list, and file descriptions."
+    },
+    {
+      "name": "requirements.txt",
+      "description": "A file that lists the Python packages required to run the project."
+    }
+  ],
+  "secrets_instructions": {
+    "gcloud": "The gcloud secret is in the 'secret' folder in the local project directory.",
+    "oracle_cloud": "The Oracle Cloud SSH key is in the 'secret' folder in the local project directory."
+  }
+}
