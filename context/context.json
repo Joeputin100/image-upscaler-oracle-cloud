@@ -1,8 +1,7 @@
 {
   "project_description": "An image upscaler that runs on Oracle Cloud. A local Python script executes the upscaling script on an Oracle Cloud instance, copies the files back to the local machine, and cleans up the files on the Oracle Cloud instance.",
-  "project_task_state": "initialization",
+  "project_task_state": "in-progress",
   "task_todo_list": [
-    "Create a GitHub repository.",
     "Create a local Python script to execute the script on the Oracle Cloud instance.",
     "Copy the upscaled files back to the local machine.",
     "Clean up the files on the Oracle Cloud instance.",
@@ -28,6 +27,10 @@
     {
       "name": "requirements.txt",
       "description": "A file that lists the Python packages required to run the project."
+    },
+    {
+      "name": "connect_oraclecloud.sh",
+      "description": "A script to connect to the Oracle Cloud instance."
     }
   ],
   "secrets_instructions": {
